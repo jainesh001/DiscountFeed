@@ -19,9 +19,9 @@ public class Main_Fragment extends Fragment {
 
 
         TabLayout tabLayout = (TabLayout) root.findViewById(R.id.tab_layout);
-        tabLayout.addTab(tabLayout.newTab().setText("Tab 1"));
-        tabLayout.addTab(tabLayout.newTab().setText("Tab 2"));
-        tabLayout.addTab(tabLayout.newTab().setText("Tab 3"));
+        tabLayout.addTab(tabLayout.newTab().setText("Retailer"));
+        tabLayout.addTab(tabLayout.newTab().setText("Favorites"));
+        tabLayout.addTab(tabLayout.newTab().setText("Coupons"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
 
